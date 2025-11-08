@@ -1,0 +1,91 @@
+# -------------------------
+# OS / Editor junk
+# -------------------------
+.DS_Store
+Thumbs.db
+Icon?
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+*.iml
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+*.egg-info/
+.eggs/
+.build/
+dist/
+build/
+pip-wheel-metadata/
+.pytest_cache/
+.mypy_cache/
+pytest_cache/
+.pytype/
+.coverage
+htmlcov/
+.cache/
+.venv/
+venv/
+env/
+env*/ 
+.virtualenv/
+.python-version
+
+# -------------------------
+# Env / Secrets
+# -------------------------
+.env
+.env.*
+*.env
+
+# -------------------------
+# App outputs (generated)
+# -------------------------
+outputs/
+# If you want to keep text results but ignore heavy media,
+# comment the line above and use the granular ignores below:
+# outputs/tmp/
+# outputs/videos/
+# outputs/audio/
+# outputs/frames/
+
+# -------------------------
+# Local temp & logs
+# -------------------------
+tmp/
+temp/
+*.log
+logs/
+nohup.out
+
+# -------------------------
+# macOS speech / ffmpeg artifacts (just in case)
+# -------------------------
+*.aiff
+*.wav
+*.mp3
+*.mp4
+*.mov
+
+# -------------------------
+# Node (if you ever add a small UI helper)
+# -------------------------
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+
+# -------------------------
+# JetBrains / Gradio cache (some versions)
+# -------------------------
+.gradio/
+outputs/

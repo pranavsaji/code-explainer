@@ -1,0 +1,9 @@
+gradio
+openai
+moviepy==1.0.3
+pillow
+beautifulsoup4
+requests
+pyttsx3
+markdown-it-py
+python-dotenv
